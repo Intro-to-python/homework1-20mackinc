@@ -19,7 +19,13 @@
     #print(Sorry. Try again!)
 
 import random
-targetNum, guessNum = random.randint(1,10), 0
-while targetNum != guessNum:
-    guessNum = int(input("Guess a number between 1 and 10 until you get it right: "))
-print("Well guessed!")
+def randint():
+  random.randint(1,9), 0
+def guessnumberloop():
+    targetNum, guessNum = random.randint(1,9), 0
+    while targetNum != guessNum:
+        guessNum = int(input("Guess a number between 1 and 9 until you get it right: "))
+    print("Well guessed!")
+
+print(randint())
+print(guessnumberloop())
